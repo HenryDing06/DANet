@@ -21,7 +21,7 @@
    
 3. Dataset
 
-  - Download the [Cityscapes](https://www.cityscapes-dataset.com/) dataset and convert the dataset to [19 categories](https://github.com/mcordts/cityscapesScripts/blob/master/cityscapesscripts/helpers/labels.py). 
+  - Download the [Cityscapes](https://www.cityscapes-dataset.com/) dataset and convert the dataset to [19 categories](https://github.com/mcordts/cityscapesScripts/blob/master/cityscapesscripts/helpers/labels.py) according to [this](https://github.com/junfu1115/DANet/issues/12). 
   - Please put dataset in folder `./datasets`
 
 4 . Evaluation
