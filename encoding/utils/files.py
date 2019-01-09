@@ -10,7 +10,8 @@ __all__ = ['save_checkpoint', 'download', 'mkdir', 'check_sha1']
 
 def save_checkpoint(state, args, is_best, filename='checkpoint.pth.tar'):
     """Saves checkpoint to disk"""
-    directory = "%s/%s_model/%s/"%(args.dataset, args.model, args.checkname)
+    directory = "%s/%s_model/%s_cropsize%d_basesize%d_batchsize%d_lr%d_epoch%d/"%(args.dataset, args.model,\
+        args.crop_size, args.base_size, args.batch_size, args.lr, args.epoch, args.checkname)
     if not os.path.exists(directory):
         os.makedirs(directory)
     filename = directory + filename
