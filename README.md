@@ -1,17 +1,3 @@
-# [Dual Attention Network for Scene Segmentation](https://arxiv.org/pdf/1809.02983.pdf)
-
-## Introduction
-
-We propose a Dual Attention Network (DANet) to adaptively integrate local features with their global dependencies based on the self-attention mechanism. And we achieve new state-of-the-art segmentation performance on three challenging scene segmentation datasets, i.e., Cityscapes, PASCAL Context and COCO Stuff-10k dataset.
-
-![image](img/overview.png)
-
-## Cityscapes testing set result
-
-We train our DANet-101 with only fine annotated data and submit our test results to the official evaluation server.
-
-![image](img/tab3.png)
-
 ## Usage
 
 1. Install pytorch 
@@ -95,3 +81,17 @@ If DANet is useful for your research, please consider citing:
 ```
 ## Acknowledgement
 Thanks [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding), especially the Synchronized BN!
+
+# [Dual Attention Network for Scene Segmentation](https://arxiv.org/pdf/1809.02983.pdf)
+
+## Introduction
+
+We propose a Dual Attention Network (DANet) to adaptively integrate local features with their global dependencies based on the self-attention mechanism. And we achieve new state-of-the-art segmentation performance on three challenging scene segmentation datasets, i.e., Cityscapes, PASCAL Context and COCO Stuff-10k dataset.
+
+![image](img/overview.png)
+
+## Cityscapes testing set result
+
+We train our DANet-101 with only fine annotated data and submit our test results to the official evaluation server.
+
+![image](img/tab3.png)
