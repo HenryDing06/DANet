@@ -5,6 +5,7 @@
   - The code is tested on python3.6 and official [Pytorch@commitfd25a2a](https://github.com/pytorch/pytorch/tree/fd25a2a86c6afa93c7062781d013ad5f41e0504b#from-source), please install PyTorch from source.
   - The code is modified from [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding). 
   - Download [Anaconda](https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh)
+  
   ```shell
   conda install pytorch=0.4.1 cuda90 -c pytorch
   or conda install pytorch=0.4.1 cuda80 -c pytorch
