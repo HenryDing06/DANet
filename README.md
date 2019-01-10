@@ -7,8 +7,8 @@
   - Download [Anaconda](https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh)
   
   ```shell
-  conda install pytorch=0.4.1 cuda90 -c pytorch
-  or conda install pytorch=0.4.1 cuda80 -c pytorch
+  conda install pytorch=0.4.1 cuda90 torchvision -c pytorch
+  or conda install pytorch=0.4.1 cuda80 torchvision -c pytorch
   conda install -c conda-forge tqdm
   ```
 2. Clone the repository:
